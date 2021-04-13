@@ -1,0 +1,36 @@
+
+T3FE0 000:210 SEGGER J-Link V4.68a Log File (0001ms, 0047ms total)
+T3FE0 000:210 DLL Compiled: Apr 12 2013 13:26:50 (0001ms, 0047ms total)
+T3FE0 000:210 Logging started @ 2020-11-20 10:25 (0001ms, 0047ms total)
+T3FE0 000:211 JLINK_SetWarnOutHandler(...) (0000ms, 0047ms total)
+T3FE0 000:211 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled May 17 2019 09:50:41
+Hardware: V9.60
+S/N: 69650103
+Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash  returns O.K. (0012ms, 0059ms total)
+T3FE0 000:223 JLINK_SetErrorOutHandler(...) (0000ms, 0059ms total)
+T3FE0 000:223 JLINK_ExecCommand("ProjectFile = "D:\altera\project\STM32\MMADSPV9.4 USB_´úÂëÆ´½Ó\USER\JLinkSettings.ini"", ...)  returns 0x00 (0002ms, 0061ms total)
+T3FE0 000:225 JLINK_ExecCommand("Device = STM32F407ZG", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "STM32F407ZG" selected (1024 KB flash, 128 KB RAM).  returns 0x00 (0001ms, 0062ms total)
+T3FE0 000:226 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_GetDLLVersion()  returns 46801 (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_GetFirmwareString(...) (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_GetDLLVersion()  returns 46801 (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_GetCompileDateTime() (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_GetFirmwareString(...) (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_GetHardwareVersion()  returns 0x17700 (0000ms, 0062ms total)
+T3FE0 000:226 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0063ms total)
+T3FE0 000:227 JLINK_SetSpeed(10000) (0001ms, 0064ms total)
+T3FE0 000:228 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)  returns JLINKARM_RESET_TYPE_NORMAL (0000ms, 0064ms total)
+T3FE0 000:228 JLINK_Reset() >0x108 TIF>Found SWD-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x108 TIF>Found SWD-DP with ID 0x2BA01477
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>TPIU fitted.ETM fitted. >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>FPUnit: 6 code (BP) slots and 2 literal slots >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF>
+ >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M4 r0p1, Little endian. -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+ -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) (0068ms, 0132ms total)
+T3FE0 000:296 JLINK_GetId() >0x0D TIF> >0x21 TIF>  returns 0x2BA01477 (0001ms, 0133ms total)
+T3FE0 000:305 JLINK_GetFirmwareString(...) (0000ms, 0133ms total)
+T3FE0 002:205 JLINK_Close() >0x42 TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> (0017ms, 0150ms total)
+T3FE0 002:223 JLINK_Close() (0000ms, 0150ms total)
+T3FE0 002:224 JLINK_Close() (0000ms, 0150ms total)
